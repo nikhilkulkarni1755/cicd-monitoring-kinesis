@@ -1,0 +1,51 @@
+# Build artifacts
+dist/
+build/
+.vite/
+
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf.json
+override.tf.json.example
+*_override.tf
+*_override.tf.json
+
+# Lambda
+lambda/**/*.zip
+lambda/**/.venv
+lambda/**/venv
+
+# Logs
+*.log
+logs/
